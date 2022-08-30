@@ -1,0 +1,117 @@
+@media (max-width: 600px) {
+  .program {
+    flex-direction: row;
+    background-color: bisque;
+  }
+}
+
+@media (min-width: 800px) {
+  .program {
+    flex-direction: column;
+    background-color: rgb(142, 109, 67);
+  }
+}
+@media (min-width: 1200px) {
+  .program {
+    flex-direction: column;
+    background-color: rgb(142, 109, 67);
+  }
+}
+
+.whatsapp img {
+  padding-left: 15rem;
+  position: fixed;
+  float: left;
+  width: 4rem;
+  padding: 10px;
+  margin: 10px;
+  border: 5px;
+}
+.program {
+  display: flex;
+  flex-direction: column;
+  height: 1600px;
+  padding: 20px;
+  border: 400px;
+}
+.search_bar {
+  background-color: aliceblue;
+  height: 70px;
+  margin: 20px;
+  border: 50px;
+  padding: 20px;
+}
+.header {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 70px;
+  padding: 10px;
+  margin: 20px;
+  border: 40px;
+  background-color: bisque;
+}
+.content {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 350px;
+  margin: 100px;
+  border: 20px;
+}
+p {
+  font-size: x-large;
+}
+.search_bar {
+  font-size: xx-large;
+  background-color: rgb(232, 217, 198);
+  text-align: center;
+}
+a {
+  color: dimgray;
+}
+
+.footer {
+  height: 100px;
+  margin: 50px;
+  border: 50px;
+  padding: 20px;
+  text-align: center;
+}
+.box_photos img {
+  width: 20rem;
+  float: left;
+  margin: 20px;
+  border: 50px;
+}
+
+ul {
+  font-size: medium;
+}
+.better {
+  text-shadow: 0 0 0.2rem #e9b868, 0 0 0.4rem #e9b868, 0 0 0.6rem #e9b868,
+    0 0 0.8rem #e9b868, 0 0 1rem #e9b868;
+  color: rgb(13, 13, 13);
+}
+.better_imgs img {
+  float: left;
+  width: 15rem;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 5px;
+  align-items: center;
+}
+.better_photos {
+  width: 20rem;
+  float: left;
+  margin: 10px;
+}
+.be_imgs img {
+  width: 20rem;
+  float: left;
+  margin: 15px;
+}
+.imgss {
+  padding: 10px;
+  float: right;
+}
